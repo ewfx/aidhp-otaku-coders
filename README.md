@@ -93,6 +93,9 @@ Setup and Installation Instructions
 1. **Clone the Repository**:
    
    Open a terminal and run the command to clone the repository.
+   ```sh
+   git clone <git-repo-url>
+   ```
 
 2. **Install Required Software**:
 
@@ -106,6 +109,10 @@ Setup and Installation Instructions
    Open a terminal and navigate to the project folder named code.
    Run the command to install the required Python packages from the requirements file.
 
+   ```sh
+   pip install -r requirements.txt
+   ```
+
 4. **Generate Google API Key**:
 
    Visit the [Google AI Studio](https://aistudio.google.com/apikey) website and generate an API key.
@@ -114,17 +121,37 @@ Setup and Installation Instructions
 
    After generating the API key, set the environment variable by running the appropriate command:
    - For Windows, use the command to set the API key.
+      ```powershell
+      $env:GOOGLE_API_KEY = "your_api_key"
+      ```
    - For Mac or Linux, use the export command to set the API key.
+      ```sh
+      export GOOGLE_API_KEY = "your_api_key"
+      ```
 
 6. **Start the API**:
    Open a terminal and navigate to the src folder inside the code folder.
    Run the command to start the FastAPI server with Uvicorn.
 
+   ```sh
+   cd code/src
+   python -m uvicorn main:app --reload
+   ```
+
+7. **Install the Packages for UI**:
+   Open a new terminal and navigate to code/src/web_app folder.
+   Then run the following code.
+   ```sh
+   cd code/src/web_app
+   npm install
+   ```
+
 7. **Run the UI**:
 
-   Open a new terminal and navigate to the web_app folder inside the src folder.
-   Run the command to install the required Node.js packages.
-   Start the UI by running the appropriate command.
+   Start the UI by running the following command:
+   ```sh
+   npm run dev
+   ```
    The UI will be available at the address http://localhost:5173/.
 
 ## 🏗️ Tech Stack
