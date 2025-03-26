@@ -17,11 +17,23 @@
 A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+📹 [Video Demo](./artifacts/demo/demo_video.mp4) 
 
-![Screenshot 1](link-to-image)
+🖼️ Screenshots:
+Login Page:
+![Login Page](./artifacts/demo/screenshots/login_page.png)
+
+Products Hub:
+![Products Hub](./artifacts/demo/screenshots/products_hub.png)
+
+Products Search:
+![Search Products Hub](./artifacts/demo/screenshots/search_products.png)
+
+MyFin: Financial Hub:
+![MyFin: Financial Hub](./artifacts/demo/screenshots/myFin.png)
+
+InsightGen: Business Portal:
+![InsightGen: Business Portal](./artifacts/demo/screenshots/insightGen.png)
 
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
@@ -50,11 +62,12 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React
+- 🔹 Backend: FastAPI
+- 🔹 Database: SQLite
+- 🔹 Other: Google Gemini API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Sajal Singhal** - [GitHub](https://github.com/SSReal)
+- **Md Ubaid Khan** - [GitHub](https://github.com/mdubaidkhan)
+- **Swarnabh Paul** - [Github](https://github.com/SwarnabhGHDummy)
