@@ -1,3 +1,7 @@
-## Delete this file
+## Tests Location for Backend
+Please go to the following path for accessing the tests for the API:
+`code/src/test`
 
-Instead place your test files here
+## Tests Location for Frontend
+Please go to the following path for accessing the tests for the UI:
+`code/src/web_app/tests`
