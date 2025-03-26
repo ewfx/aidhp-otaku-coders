@@ -94,7 +94,7 @@ Setup and Installation Instructions
    
    Open a terminal and run the command to clone the repository.
    ```sh
-   git clone <git-repo-url>
+   git clone https://github.com/ewfx/aidhp-otaku-coders.git
    ```
 
 2. **Install Required Software**:
